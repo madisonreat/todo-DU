@@ -10,6 +10,7 @@
   </section>
 </section>
 
+
 <script>
   $(function() {
     $.get("/tasks").success( function( data ) {
@@ -23,7 +24,6 @@
       });
       var ulTodos = $('.todo-list');
       ulTodos.html(htmlString);
-
     });
   });
 </script>
